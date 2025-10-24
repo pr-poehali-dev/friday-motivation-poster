@@ -158,10 +158,10 @@ const Index = () => {
       </div>
 
       <div className="fixed top-1/4 left-0 comic-text text-6xl md:text-9xl text-white opacity-10 -rotate-12 pointer-events-none animate-pulse">
-        POW!
+        БАХ!
       </div>
       <div className="fixed bottom-1/4 right-0 comic-text text-6xl md:text-9xl text-white opacity-10 rotate-12 pointer-events-none animate-pulse">
-        BOOM!
+        ВЖУХ!
       </div>
     </div>
   );
