@@ -5,35 +5,35 @@ import Icon from '@/components/ui/icon';
 const posters = [
   {
     id: 1,
-    title: 'ПРОДУКТИВНАЯ НЕДЕЛЯ',
-    subtitle: 'Завершена успешно!',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/77eee473-52de-466c-ad2b-a22f22db1171.jpg',
-    color: 'from-orange-600 to-orange-400',
-    emoji: '🏗️'
+    title: 'Отличной пятницы!',
+    subtitle: 'Продуктивная неделя позади',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/3a0fd56d-f964-4cdf-bb71-498a37648796.jpg',
+    color: 'from-gray-100 to-gray-300',
+    emoji: '✏️'
   },
   {
     id: 2,
-    title: 'ПЯТНИЦА - ДЕНЬ ПОБЕД',
-    subtitle: 'Вместе мы сильнее',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/f5e2d4a2-74ac-4d77-885b-f52cb0ac24da.jpg',
-    color: 'from-blue-700 to-blue-500',
-    emoji: '🎯'
+    title: 'Хороших выходных!',
+    subtitle: 'Вы заслужили отдых',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/5f4fa6af-21e8-499a-a038-6413ebc976c3.jpg',
+    color: 'from-slate-200 to-slate-400',
+    emoji: '🎨'
   },
   {
     id: 3,
-    title: 'К НОВЫМ ВЫСОТАМ',
-    subtitle: 'Партнерство и доверие',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/d59d3862-5112-4e33-a641-e993d45c2e69.jpg',
-    color: 'from-slate-700 to-slate-500',
-    emoji: '🤝'
+    title: 'Отдыхайте с радостью!',
+    subtitle: 'После трудовой недели',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/3838a480-a316-4544-916d-902562b81e23.jpg',
+    color: 'from-zinc-200 to-zinc-400',
+    emoji: '🌅'
   },
   {
     id: 4,
-    title: 'ОТЛИЧНАЯ РАБОТА',
-    subtitle: 'Команда на высоте!',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/b6098465-8b3d-4bb9-a1e7-337f0d40dcd7.jpg',
-    color: 'from-amber-600 to-orange-500',
-    emoji: '⭐'
+    title: 'Успешной пятницы!',
+    subtitle: 'Спасибо за ваш труд',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/12769c4b-b652-4a5e-b24a-3c3778e296e0.jpg',
+    color: 'from-neutral-200 to-neutral-400',
+    emoji: '🤝'
   }
 ];
 
@@ -132,15 +132,15 @@ const Index = () => {
             <div className="absolute inset-0 bg-black transform rotate-2 rounded-2xl"></div>
             <div className="relative bg-yellow-300 border-8 border-black rounded-2xl p-6 md:p-8 comic-shadow transform -rotate-1">
               <p className="comic-text text-3xl md:text-5xl text-black mb-4">
-                МОТИВАЦИОННАЯ ПЯТНИЦА!
+                От компании Ямалсервестройурал
               </p>
               <div className="flex justify-center gap-4 text-3xl md:text-4xl mb-4">
-                <span className="animate-bounce">🏗️</span>
-                <span className="animate-bounce delay-75">💪</span>
-                <span className="animate-bounce delay-150">🎯</span>
+                <span className="animate-bounce">✏️</span>
+                <span className="animate-bounce delay-75">🎨</span>
+                <span className="animate-bounce delay-150">🌅</span>
               </div>
               <p className="text-base md:text-lg font-bold text-gray-800">
-                Продуктивная неделя завершена — выбери постер для команды!
+                Выбери постер в стиле карандашного рисунка!
               </p>
             </div>
           </div>
@@ -149,19 +149,19 @@ const Index = () => {
         <div className="mt-8 text-center">
           <div className="inline-block bg-white bg-opacity-90 rounded-2xl p-4 md:p-6 comic-shadow-sm">
             <div className="flex flex-wrap justify-center gap-2 md:gap-4 text-xl md:text-2xl">
-              <span>🏆</span>
-              <span className="font-bold text-gray-800">Продуктивная неделя — заслуженный отдых впереди!</span>
-              <span>✨</span>
+              <span>✏️</span>
+              <span className="font-bold text-gray-800">Хороших выходных после продуктивной недели!</span>
+              <span>🎨</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="fixed top-1/4 left-0 comic-text text-6xl md:text-9xl text-white opacity-10 -rotate-12 pointer-events-none animate-pulse">
-        БАХ!
+      <div className="fixed top-1/4 left-0 text-6xl md:text-9xl text-gray-800 opacity-5 -rotate-12 pointer-events-none">
+        ✏️
       </div>
-      <div className="fixed bottom-1/4 right-0 comic-text text-6xl md:text-9xl text-white opacity-10 rotate-12 pointer-events-none animate-pulse">
-        ВЖУХ!
+      <div className="fixed bottom-1/4 right-0 text-6xl md:text-9xl text-gray-800 opacity-5 rotate-12 pointer-events-none">
+        🎨
       </div>
     </div>
   );
