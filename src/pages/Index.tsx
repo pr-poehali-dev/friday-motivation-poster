@@ -5,35 +5,35 @@ import Icon from '@/components/ui/icon';
 const posters = [
   {
     id: 1,
-    title: 'FRIDAY ENERGY!',
-    subtitle: 'Заряжаемся на выходные',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/fc750774-04e3-4994-b5dd-2b7015e29055.jpg',
-    color: 'from-orange-500 to-yellow-400',
-    emoji: '⚡'
+    title: 'ПРОДУКТИВНАЯ НЕДЕЛЯ',
+    subtitle: 'Завершена успешно!',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/77eee473-52de-466c-ad2b-a22f22db1171.jpg',
+    color: 'from-orange-600 to-orange-400',
+    emoji: '🏗️'
   },
   {
     id: 2,
-    title: 'WEEKEND INCOMING!',
-    subtitle: 'Выходные уже близко',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/6f9992e0-96b9-4c46-b815-8b455ccc16b1.jpg',
-    color: 'from-blue-600 to-cyan-400',
-    emoji: '🚀'
+    title: 'ПЯТНИЦА - ДЕНЬ ПОБЕД',
+    subtitle: 'Вместе мы сильнее',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/f5e2d4a2-74ac-4d77-885b-f52cb0ac24da.jpg',
+    color: 'from-blue-700 to-blue-500',
+    emoji: '🎯'
   },
   {
     id: 3,
-    title: 'TEAM POWER FRIDAY!',
-    subtitle: 'Сила нашей команды',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/f271f5e1-9486-438a-8b6e-a2a408385e98.jpg',
-    color: 'from-purple-600 to-pink-500',
-    emoji: '💪'
+    title: 'К НОВЫМ ВЫСОТАМ',
+    subtitle: 'Партнерство и доверие',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/d59d3862-5112-4e33-a641-e993d45c2e69.jpg',
+    color: 'from-slate-700 to-slate-500',
+    emoji: '🤝'
   },
   {
     id: 4,
-    title: 'VICTORY FRIDAY!',
-    subtitle: 'Победная пятница!',
-    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/e96b7fbe-a202-453a-8ad3-9860dc850cf4.jpg',
-    color: 'from-green-500 to-emerald-400',
-    emoji: '🏆'
+    title: 'ОТЛИЧНАЯ РАБОТА',
+    subtitle: 'Команда на высоте!',
+    image: 'https://cdn.poehali.dev/projects/689bd9ac-b494-4af1-ba69-b3b62f933e7c/files/b6098465-8b3d-4bb9-a1e7-337f0d40dcd7.jpg',
+    color: 'from-amber-600 to-orange-500',
+    emoji: '⭐'
   }
 ];
 
@@ -132,15 +132,15 @@ const Index = () => {
             <div className="absolute inset-0 bg-black transform rotate-2 rounded-2xl"></div>
             <div className="relative bg-yellow-300 border-8 border-black rounded-2xl p-6 md:p-8 comic-shadow transform -rotate-1">
               <p className="comic-text text-3xl md:text-5xl text-black mb-4">
-                ОТЛИЧНОЙ ПЯТНИЦЫ!
+                МОТИВАЦИОННАЯ ПЯТНИЦА!
               </p>
               <div className="flex justify-center gap-4 text-3xl md:text-4xl mb-4">
-                <span className="animate-bounce">⚡</span>
+                <span className="animate-bounce">🏗️</span>
                 <span className="animate-bounce delay-75">💪</span>
-                <span className="animate-bounce delay-150">🚀</span>
+                <span className="animate-bounce delay-150">🎯</span>
               </div>
               <p className="text-base md:text-lg font-bold text-gray-800">
-                Выбери свой постер и поделись с командой!
+                Продуктивная неделя завершена — выбери постер для команды!
               </p>
             </div>
           </div>
@@ -148,9 +148,9 @@ const Index = () => {
 
         <div className="mt-8 text-center">
           <div className="inline-block bg-white bg-opacity-90 rounded-2xl p-4 md:p-6 comic-shadow-sm">
-            <div className="flex flex-wrap justify-center gap-2 md:gap-4 text-2xl md:text-3xl">
-              <span>🔥</span>
-              <span className="font-bold text-gray-800">Впереди выходные!</span>
+            <div className="flex flex-wrap justify-center gap-2 md:gap-4 text-xl md:text-2xl">
+              <span>🏆</span>
+              <span className="font-bold text-gray-800">Продуктивная неделя — заслуженный отдых впереди!</span>
               <span>✨</span>
             </div>
           </div>
